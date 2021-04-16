@@ -21,12 +21,30 @@
     text-align: center;
 }
 
+.crimson {
+    color: crimson;
+    text-align: center;
+}
+
 .bg-white {
     background-color: white;
     border-radius: 5px;
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.flex-around {
     display: flex;
+    justify-content: space-around;
 }
 
 .outline {
     border: 1px solid crimson;
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: justify;
 }
