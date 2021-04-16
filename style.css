@@ -43,8 +43,25 @@
 .outline {
     border: 1px solid crimson;
     border-radius: 5px;
-    line-height: 30px;
+    line-height: 25px;
     padding: 5px;
     margin-top: 10px;
     text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padtop-30 {
+    padding-top: 30px;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bigbox {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
