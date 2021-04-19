@@ -1,6 +1,7 @@
 // Collegare onclick su bottone con semplice console.log("ciao");
 function myfunction(){
-    document.getElementById("data").innerHTML = "test";
+    document.getElementById("data").value = "test";
+    console.log("funziona")
 }
 
 // 1 Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere e l’età del passeggero.
